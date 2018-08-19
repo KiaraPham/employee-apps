@@ -1,0 +1,127 @@
+a {
+  text-decoration: none;
+}
+
+.my-card {
+  width: 24%;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, .125);
+
+  &:not(:first-child) {
+    margin-left: 1%;
+  }
+  .my-card-icon {
+    width: 80px;
+    height: 80px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #fff;
+  }
+  .my-card-content {
+    width: calc(100% - 80px);
+    float: left;
+  }
+}
+
+.bg-project {
+  background-color: rgb(86, 189, 234);
+}
+
+.bg-leave {
+  background-color: rgb(205, 85, 66);
+}
+
+.bg-seniority {
+  background-color: rgb(73, 164, 98);
+}
+
+.bg-point {
+  background-color: rgb(230, 160, 60);
+}
+
+
+.sidebar .arrow {
+  float: right;
+}
+
+.sidebar-design {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: rgb(36, 45, 50);
+  div {
+    color: rgb(59, 92, 109);
+  }
+  a {
+    color: rgb(186, 199, 206);
+    font-size: 12px;
+  }
+}
+.brand-name {
+  text-align: center;
+  background-color: rgb(74,125,165);
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  vertical-align: middle;
+}
+
+.nav-design {
+  background-color: rgb(80, 140, 184);
+  a {
+    color: white;
+  }
+}
+
+.nav-link {
+  &:hover {
+    background-color: rgb(32, 40, 44);
+    color: white;
+  }
+}
+
+.angular-notifications-container {
+  position: relative;
+  display: table-cell;
+  width: 100%;
+}
+
+.angular-notifications-icon.overlay {
+  position: absolute;
+  z-index: 1;
+}
+
+.angular-notifications-icon {
+  right: -5px;
+  top: -4px;
+  border-radius: 25%;
+  padding-top: -2px;
+  min-width: 12px;
+  height: 12px;
+  line-height: 12px;
+  color: white;
+  user-select: none;
+  cursor: default;
+  font-size: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bg-mail-notification {
+  background-color: rgb(73,164,98);
+}
+
+.bg-bell-notification {
+  background-color: rgb(230,160,60);
+}
+
+.bg-flag-notification {
+  background-color: rgb(205,85,66);
+}
+
+

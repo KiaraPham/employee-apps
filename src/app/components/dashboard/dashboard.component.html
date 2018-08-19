@@ -1,0 +1,176 @@
+<nav class="navbar sticky-top flex-md-nowrap p-0 nav-design">
+  <div class="navbar-brand brand-name col-sm-3 col-md-2 m-0 p-0" href="#">Apps Cyclone</div>
+  <ul class="nav ">
+    <li class="nav-item text-nowrap">
+      <a class="nav-link" href="#">
+        <div class="angular-notifications-container">
+          <div class="angular-notifications-icon overlay bg-mail-notification">
+            <div>2</div>
+          </div>
+          <div class="notification-inner">
+            <fa-icon [icon]="faEnvelope"></fa-icon>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="nav-item text-nowrap">
+      <a class="nav-link" href="#">
+        <div class="angular-notifications-container">
+          <div class="angular-notifications-icon overlay bg-bell-notification">
+            <div>2</div>
+          </div>
+          <div class="notification-inner">
+            <fa-icon [icon]="faBell"></fa-icon>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="nav-item text-nowrap">
+      <a class="nav-link" href="#">
+        <div class="angular-notifications-container">
+          <div class="angular-notifications-icon overlay bg-flag-notification">
+            <div>2</div>
+          </div>
+          <div class="notification-inner">
+            <fa-icon [icon]="faFlag"></fa-icon>
+          </div>
+        </div>
+      </a>
+    </li>
+
+    <li class="nav-item text-nowrap">
+      <a class="nav-link" href="#">
+        Vu Dao
+      </a>
+    </li>
+
+    <li class="nav-item text-nowrap">
+      <a class="nav-link" href="#">
+        <fa-icon [icon]="faCogs"></fa-icon>
+      </a>
+    </li>
+  </ul>
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <nav class="col-md-2 d-none d-md-block sidebar sidebar-design">
+      <div class="sidebar-sticky">
+        <div>MAIN NAVIGATION</div>
+        <div class="row">
+          <div class="input-group m-2">
+            <input class="form-control py-2 border-right-0 border" type="search" placeholder="search"
+                   id="example-search-input">
+            <span class="input-group-append">
+              <fa-icon [icon]="faSearch" class="input-group-text bg-white"></fa-icon>
+            </span>
+          </div>
+        </div>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              <fa-icon [icon]="faTachometerAlt"></fa-icon>
+              Dashboard <span class="sr-only">(current)</span>
+              <fa-icon [icon]="faChevronLeft" class="arrow"></fa-icon>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <fa-icon [icon]="faCopy"></fa-icon>
+              Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <fa-icon [icon]="faTh"></fa-icon>
+              Resume Template</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <fa-icon [icon]="faChartPie"></fa-icon>
+              Chat Room
+              <fa-icon [icon]="faChevronLeft" class="arrow"></fa-icon>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <fa-icon [icon]="faTv"></fa-icon>
+              Events
+              <fa-icon [icon]="faChevronLeft" class="arrow"></fa-icon>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <fa-icon [icon]="faEdit"></fa-icon>
+              Food and Drinks
+              <fa-icon [icon]="faChevronLeft" class="arrow"></fa-icon>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <fa-icon [icon]="faCalendar"></fa-icon>
+              Calendar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+      <div id="page-wrapper">
+        <div class="row space-between">
+          <div>
+            <h1 class="page-header">Dashboard</h1>
+          </div>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+            </ol>
+          </nav>
+          <!-- /.col-lg-12-->
+        </div>
+        <!-- /.row-->
+        <div class="row">
+          <div class="col-12">
+            <div class="my-card shadow-sm ">
+              <div class="my-card-icon bg-project">
+                <fa-icon [icon]="faCog"></fa-icon>
+              </div>
+              <div class="my-card-content p-md-2">
+                Projects
+                <div>3</div>
+              </div>
+            </div>
+
+            <div class="my-card shadow-sm">
+              <div class="my-card-icon bg-leave">
+                <fa-icon [icon]="faGooglePlusG"></fa-icon>
+              </div>
+              <div class="my-card-content p-md-2">
+                Leaves 2018
+                <div>12</div>
+              </div>
+            </div>
+
+            <div class="my-card shadow-sm">
+              <div class="my-card-icon bg-seniority">
+                <fa-icon [icon]="faShoppingCart"></fa-icon>
+              </div>
+              <div class="my-card-content p-md-2">
+                Seniority
+                <div>5</div>
+              </div>
+            </div>
+
+            <div class="my-card shadow-sm">
+              <div class="my-card-icon bg-point">
+                <fa-icon [icon]="faUsers"></fa-icon>
+              </div>
+              <div class="my-card-content p-md-2">
+                Points
+                <div>2000</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
