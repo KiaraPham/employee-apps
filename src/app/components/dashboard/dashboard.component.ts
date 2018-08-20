@@ -12,6 +12,7 @@ import {faGooglePlusG} from '@fortawesome/free-brands-svg-icons';
 })
 
 export class DashboardComponent {
+
   cards = [
     {
       title: 'PROJECTS',

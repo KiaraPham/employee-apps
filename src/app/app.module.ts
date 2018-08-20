@@ -10,6 +10,7 @@ import {DashboardComponent} from './components/dashboard/dashboard.component';
 import {ForgotpwComponent} from './components/login/forgotpw/forgotpw.component';
 import {TestComponent} from './test/test.component';
 import { DashboardCardComponent } from './components/dashboard/dashboard/dashboard-card/dashboard-card.component';
+import {SidebarComponent} from './components/sidebar/sidebar.component';
 
 const appRoutes: Routes = [
   {path: 'login', component: LoginComponent},
@@ -35,7 +36,8 @@ const appRoutes: Routes = [
     DashboardComponent,
     ForgotpwComponent,
     TestComponent,
-    DashboardCardComponent
+    DashboardCardComponent,
+    SidebarComponent
   ],
   bootstrap: [AppComponent]
 })

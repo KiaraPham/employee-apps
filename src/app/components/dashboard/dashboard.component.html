@@ -51,95 +51,24 @@
     </li>
   </ul>
 </nav>
-<div class="container-fluid">
-  <div class="row">
-    <nav class="col-md-2 d-none d-md-block sidebar sidebar-design">
-      <div class="sidebar-sticky">
-        <div class="profile clearfix">
-          <div class="profile_pic">
-            <img src="../../../images/user.png" alt="" class="img-circle profile_img">
-          </div>
-          <div class="profile_info">
-            <span>Vu Dao</span>
-            <h2>Online</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-group m-2">
-            <input class="form-control py-2 border-right-0 border" type="search" placeholder="search"
-                   id="example-search-input">
-            <span class="input-group-append">
-              <fa-icon [icon]="faSearch" class="input-group-text bg-white"></fa-icon>
-            </span>
-          </div>
-        </div>
-        <div>MAIN NAVIGATION</div>
-        <ul class="nav flex-column">
-          <li class="nav-item p-2">
-            <a class="nav-link active" href="#">
-              <fa-icon [icon]="faTachometerAlt"></fa-icon>
-              Dashboard <span class="sr-only">(current)</span>
-              <fa-icon [icon]="faChevronLeft" class="arrow"></fa-icon>
-            </a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="#">
-              <fa-icon [icon]="faCopy"></fa-icon>
-              Project</a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="#">
-              <fa-icon [icon]="faTh"></fa-icon>
-              Resume Template</a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="#">
-              <fa-icon [icon]="faChartPie"></fa-icon>
-              Chat Room
-              <fa-icon [icon]="faChevronLeft" class="arrow"></fa-icon>
-            </a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="#">
-              <fa-icon [icon]="faTv"></fa-icon>
-              Events
-              <fa-icon [icon]="faChevronLeft" class="arrow"></fa-icon>
-            </a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="#">
-              <fa-icon [icon]="faEdit"></fa-icon>
-              Food and Drinks
-              <fa-icon [icon]="faChevronLeft" class="arrow"></fa-icon>
-            </a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="#">
-              <fa-icon [icon]="faCalendar"></fa-icon>
-              Calendar</a>
-          </li>
-        </ul>
+<sidebar></sidebar>
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+  <div id="page-wrapper">
+    <div class="row space-between">
+      <div>
+        <h1 class="page-header">Dashboard</h1>
       </div>
-    </nav>
-    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-      <div id="page-wrapper">
-        <div class="row space-between">
-          <div>
-            <h1 class="page-header">Dashboard</h1>
-          </div>
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-            </ol>
-          </nav>
-          <!-- /.col-lg-12-->
-        </div>
-        <dashboard-card *ngFor="let card of cards" [title]="card.title" [content]="card.content" [icon]="card.icon"
-                        [bg]="card.bg">
-        </dashboard-card>
-
-      </div>
-    </main>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+        </ol>
+      </nav>
+      <!-- /.col-lg-12-->
+    </div>
+    <dashboard-card *ngFor="let card of cards" [title]="card.title" [content]="card.content" [icon]="card.icon"
+                    [bg]="card.bg">
+    </dashboard-card>
   </div>
-</div>
+</main>
+

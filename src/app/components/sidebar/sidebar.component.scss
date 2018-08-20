@@ -1,0 +1,80 @@
+
+.sidebar .arrow {
+  float: right;
+}
+
+.sidebar-design {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: rgb(36, 45, 50);
+  div {
+    color: rgb(59, 92, 109);
+  }
+  a {
+    color: rgb(186, 199, 206);
+    font-size: 12px;
+  }
+}
+
+.profile_pic {
+  width: 35%;
+  float: left;
+}
+
+.img-circle.profile_img {
+  width: 70%;
+  background: #fff;
+  margin-left: 15%;
+  z-index: 1000;
+  position: inherit;
+  margin-top: 35px;
+  border: 1px solid rgba(52, 73, 94, .44);
+  padding: 4px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.profile_info {
+  padding: 25px 10px 10px;
+  width: 65%;
+  float: left;
+  span {
+    font-size: 13px;
+    line-height: 30px;
+    color: #BAB8B8;
+  }
+  h2 {
+    font-size: 14px;
+    color: #ECF0F1;
+    margin: 0;
+    font-weight: 300;
+  }
+}
+
+.brand-name {
+  text-align: center;
+  background-color: rgb(74, 125, 165);
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  vertical-align: middle;
+}
+
+.nav-design {
+  background-color: rgb(80, 140, 184);
+  a {
+    color: white;
+  }
+}
+
+.nav-link {
+  &:hover {
+    background-color: rgb(32, 40, 44);
+    color: white;
+  }
+}
