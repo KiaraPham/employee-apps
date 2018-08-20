@@ -18,4 +18,4 @@ import {ForgotpwComponent} from './forgotpw.component';
   ],
   providers: [  ]
 })
-export class LoginModule {}
+export class ForgotpwModule {}

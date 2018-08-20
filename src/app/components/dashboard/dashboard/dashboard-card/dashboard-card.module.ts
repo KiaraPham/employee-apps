@@ -1,23 +1,22 @@
 
-
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
-import { DashboardComponent } from './dashboard.component';
-import { DashboardCardComponent } from './dashboard/dashboard-card/dashboard-card.component';
+import { DashboardCardComponent } from './dashboard-card.component';
+import {DashboardComponent} from '../../dashboard.component';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     FontAwesomeModule,
-    DashboardCardComponent
+    DashboardComponent
   ],
   declarations: [
-    DashboardComponent
+    DashboardCardComponent
   ],
   providers: [  ]
 })
-export class DashboardModule {}
+export class DashboardCardModule {}

@@ -5,19 +5,17 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
-import { DashboardComponent } from './dashboard.component';
-import { DashboardCardComponent } from './dashboard/dashboard-card/dashboard-card.component';
+import { TestComponent } from './test.component';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
-    FontAwesomeModule,
-    DashboardCardComponent
+    FontAwesomeModule
   ],
   declarations: [
-    DashboardComponent
+    TestComponent
   ],
   providers: [  ]
 })
-export class DashboardModule {}
+export class LoginModule {}
