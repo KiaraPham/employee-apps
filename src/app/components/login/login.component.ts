@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLock } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
+import { faGooglePlusG } from '@fortawesome/free-brands-svg-icons';
+
 
 @Component({
   selector: 'login',
@@ -9,9 +10,9 @@ import { faLock } from '@fortawesome/free-solid-svg-icons';
 })
 
 export class LoginComponent {
-  title = 'employee-app';
   faEnvelope = faEnvelope;
   faLock = faLock;
+  faGooglePlusG = faGooglePlusG;
   constructor() {
     console.log('??');
   }

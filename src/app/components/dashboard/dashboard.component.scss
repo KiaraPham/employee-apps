@@ -1,6 +1,4 @@
-a {
-  text-decoration: none;
-}
+
 
 .my-card {
   width: 24%;
@@ -42,7 +40,6 @@ a {
   background-color: rgb(230, 160, 60);
 }
 
-
 .sidebar .arrow {
   float: right;
 }
@@ -62,9 +59,47 @@ a {
     font-size: 12px;
   }
 }
+
+.profile_pic {
+  width: 35%;
+  float: left;
+}
+
+.img-circle.profile_img {
+  width: 70%;
+  background: #fff;
+  margin-left: 15%;
+  z-index: 1000;
+  position: inherit;
+  margin-top: 35px;
+  border: 1px solid rgba(52, 73, 94, .44);
+  padding: 4px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.profile_info {
+  padding: 25px 10px 10px;
+  width: 65%;
+  float: left;
+  span {
+    font-size: 13px;
+    line-height: 30px;
+    color: #BAB8B8;
+  }
+  h2 {
+    font-size: 14px;
+    color: #ECF0F1;
+    margin: 0;
+    font-weight: 300;
+  }
+}
+
 .brand-name {
   text-align: center;
-  background-color: rgb(74,125,165);
+  background-color: rgb(74, 125, 165);
   height: 40px;
   line-height: 40px;
   color: white;
@@ -83,6 +118,13 @@ a {
     background-color: rgb(32, 40, 44);
     color: white;
   }
+}
+
+.user-profile img {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 .angular-notifications-container {
@@ -113,15 +155,16 @@ a {
 }
 
 .bg-mail-notification {
-  background-color: rgb(73,164,98);
+  background-color: rgb(73, 164, 98);
 }
 
 .bg-bell-notification {
-  background-color: rgb(230,160,60);
+  background-color: rgb(230, 160, 60);
 }
 
 .bg-flag-notification {
-  background-color: rgb(205,85,66);
+  background-color: rgb(205, 85, 66);
 }
+
 
 

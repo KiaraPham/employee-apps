@@ -8,7 +8,7 @@
           <!-- form card login -->
           <div class="card rounded-0">
             <div class="card-header">
-              <h3 class="mb-0">Sign in to start your session</h3>
+              <p class="mb-0 text-center">Sign in to start your session</p>
             </div>
             <div class="card-body">
               <form class="form" role="form" autocomplete="off" id="formLogin" novalidate="" method="POST">
@@ -30,14 +30,19 @@
                   <label class="form-check-label">
                     <input class="form-check-input" type="checkbox"> Remember me
                   </label>
-                  <button type="submit" class="btn btn-primary btn-lg float-right" id="btnLogin">Sign in</button>
+                  <button type="submit" class="btn-blue-bg float-right" id="btnLogin">Sign in</button>
                 </div>
                 <p class="text-center">- OR -</p>
-                <div class="form-group form-check">
-                  <input class="btn btn-primary btn-block" type="button" id="sign-in-google"
-                         value="Sign in using Google+">
+                <div class="btn-group btn-group-toggle " data-toggle="buttons">
+                  <label class="btn btn-danger active">
+                    <input type="radio" name="options" checked>
+                    <fa-icon [icon]="faGooglePlusG"></fa-icon>
+                  </label>
+                  <label class="btn btn-danger google-sign-in">
+                    <input type="radio" name="options"> Sign in using Google+
+                  </label>
                 </div>
-                <div class="form-group form-check">
+                <div class="form-group ">
                   <a href="#">I forgot my password</a>
                 </div>
               </form>
