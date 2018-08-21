@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {
-  faEnvelope, faLock, faTachometerAlt, faChevronLeft, faCalendar, faEdit, faTv, faChartPie, faTh, faCopy,
+  faEnvelope, faTachometerAlt, faChevronLeft, faCalendar, faEdit, faTv, faChartPie, faTh, faCopy,
   faShoppingCart, faUsers, faSearch, faCog, faCogs, faFlag, faBell,
 } from '@fortawesome/free-solid-svg-icons';
 import {faGooglePlusG} from '@fortawesome/free-brands-svg-icons';
@@ -43,14 +43,5 @@ export class DashboardComponent {
   faBell = faBell;
   faFlag = faFlag;
   faCogs = faCogs;
-  faSearch = faSearch;
-  faCopy = faCopy;
-  faTh = faTh;
-  faChartPie = faChartPie;
-  faTv = faTv;
-  faEdit = faEdit;
-  faCalendar = faCalendar;
-  faChevronLeft = faChevronLeft;
-  faTachometerAlt = faTachometerAlt;
 }
 

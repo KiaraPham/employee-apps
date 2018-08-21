@@ -1,0 +1,57 @@
+<nav class="navbar sticky-top flex-md-nowrap p-0 nav-design">
+  <div class="navbar-brand brand-name col-sm-3 col-md-2 m-0 p-0" href="#">
+    <img src="../../../assets/images/apps-cyclone-logo.png"/>
+  </div>
+  <ul class="nav">
+    <li class="nav-item-display text-nowrap">
+      <div class="input-group m-2 pr-2" style="width: 500px">
+        <input class="form-control py-2 border-right-0 border " type="search" placeholder="search..."
+               id="example-search-input">
+        <span class="input-group-append">
+              <fa-icon [icon]="faSearch" class="input-group-text bg-white"></fa-icon>
+            </span>
+      </div>
+    </li>
+    <li class="nav-item-display text-nowrap">
+      <a class="p-2" href="#">
+        <div class="angular-notifications-container">
+          <div class="notification-inner">
+            <fa-icon [icon]="faGlobeAsia"></fa-icon>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="nav-item-display text-nowrap">
+      <div class="dropdown">
+        <button class="btn-language dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+          English
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Tiếng Việt</a>
+          <a class="dropdown-item" href="#">Japanese</a>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <ul class="nav">
+    <li class="nav-item-display text-nowrap" *ngFor="let navItem of navItems">
+      <a class="p-2" href="#">
+        <div class="angular-notifications-container">
+          <div class="angular-notifications-icon overlay " [ngClass]="navItem.bg">
+            <div>{{ navItem.amount }}</div>
+          </div>
+          <div class="notification-inner">
+            <fa-icon [icon]="navItem.icon"></fa-icon>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="nav-item-display text-nowrap pr-5">
+      <a href="#" class="user-profile">
+        <img src="../../../assets/images/user.png"/>Vu Dao
+        <fa-icon [icon]="faChevronDown"></fa-icon>
+      </a>
+    </li>
+  </ul>
+</nav>

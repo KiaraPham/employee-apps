@@ -1,0 +1,92 @@
+
+.brand-name {
+  text-align: center;
+  background-color: white;
+  height: 54px;
+  line-height: 40px;
+  color: white;
+  vertical-align: middle;
+  img {
+    height: 50px;
+    padding: 2%;
+  }
+}
+
+.nav-design {
+  background-color: white;
+  a {
+    color: black;
+  }
+}
+
+.nav-link {
+  &:hover {
+    background-color: rgb(32, 40, 44);
+    color: white;
+  }
+}
+
+.nav-item-display {
+  height: 50px;
+  line-height: 50px;
+  justify-content: center;
+}
+
+.btn-language {
+  background: none;
+  border: none;
+}
+
+.user-profile img {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.angular-notifications-container {
+  border: solid 1px rgb(244, 244, 244);
+  background-color: rgb(244, 244, 244);
+  border-radius: 50%;
+  position: relative;
+  display: table-cell;
+  width: 30px;
+  line-height: 30px;
+  justify-content: center;
+  text-align: center;
+  color: gray;
+}
+
+.angular-notifications-icon.overlay {
+  position: absolute;
+  z-index: 1;
+}
+
+.angular-notifications-icon {
+  right: -5px;
+  top: -4px;
+  border-radius: 25%;
+  padding-top: -2px;
+  min-width: 12px;
+  height: 12px;
+  line-height: 12px;
+  color: white;
+  user-select: none;
+  cursor: default;
+  font-size: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bg-mail-notification {
+  background-color: rgb(227, 59, 48);
+}
+
+.bg-bell-notification {
+  background-color: rgb(152, 194, 92);
+}
+
+.bg-flag-notification {
+  background-color: rgb(241, 182, 72);
+}
+
