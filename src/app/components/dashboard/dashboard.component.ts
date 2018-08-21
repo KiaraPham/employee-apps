@@ -1,7 +1,6 @@
 import {Component} from '@angular/core';
 import {
-  faEnvelope, faTachometerAlt, faChevronLeft, faCalendar, faEdit, faTv, faChartPie, faTh, faCopy,
-  faShoppingCart, faUsers, faSearch, faCog, faCogs, faFlag, faBell,
+  faShoppingCart, faUsers, faCog,
 } from '@fortawesome/free-solid-svg-icons';
 import {faGooglePlusG} from '@fortawesome/free-brands-svg-icons';
 
@@ -16,32 +15,28 @@ export class DashboardComponent {
   cards = [
     {
       title: 'PROJECTS',
-      content: 3,
+      content: 10,
       icon: faCog,
       bg: 'bg-project'
     },
     {
       title: 'LEAVES 2018',
-      content: 12,
+      content: 8,
       icon: faGooglePlusG,
       bg: 'bg-leave'
     },
     {
-      title: 'SENIORITY',
-      content: 5,
+      title: 'SENIORITY 2018',
+      content: 16,
       icon: faShoppingCart,
       bg: 'bg-seniority'
     },
     {
       title: 'POINTS',
-      content: 2000,
+      content: 1999,
       icon: faUsers,
       bg: 'bg-point'
     }
   ];
-  faEnvelope = faEnvelope;
-  faBell = faBell;
-  faFlag = faFlag;
-  faCogs = faCogs;
 }
 
