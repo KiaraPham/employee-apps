@@ -9,9 +9,10 @@ import {LoginComponent} from './components/login/login.component';
 import {DashboardComponent} from './components/dashboard/dashboard.component';
 import {ForgotpwComponent} from './components/login/forgotpw/forgotpw.component';
 import {TestComponent} from './test/test.component';
-import { DashboardCardComponent } from './components/dashboard/dashboard/dashboard-card/dashboard-card.component';
+import { DashboardCardComponent } from './components/dashboard/dashboard-card/dashboard-card.component';
 import {SidebarComponent} from './components/sidebar/sidebar.component';
 import {NavbarComponent} from './components/navbar/navbar.component';
+import {FoodMenuComponent} from './components/dashboard/food-menu/food-menu.component';
 
 const appRoutes: Routes = [
   {path: 'login', component: LoginComponent},
@@ -39,7 +40,8 @@ const appRoutes: Routes = [
     TestComponent,
     DashboardCardComponent,
     SidebarComponent,
-    NavbarComponent
+    NavbarComponent,
+    FoodMenuComponent
   ],
   bootstrap: [AppComponent]
 })

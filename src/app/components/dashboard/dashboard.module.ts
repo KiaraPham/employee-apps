@@ -6,8 +6,9 @@ import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { DashboardComponent } from './dashboard.component';
-import { DashboardCardComponent } from './dashboard/dashboard-card/dashboard-card.component';
+import { DashboardCardComponent } from './dashboard-card/dashboard-card.component';
 import {SidebarComponent} from '../sidebar/sidebar.component';
+import {FoodMenuComponent} from './food-menu/food-menu.component';
 
 @NgModule({
   imports: [
@@ -15,10 +16,12 @@ import {SidebarComponent} from '../sidebar/sidebar.component';
     FormsModule,
     FontAwesomeModule,
     DashboardCardComponent,
-    SidebarComponent
+    SidebarComponent,
+    FoodMenuComponent
+
   ],
   declarations: [
-    DashboardComponent
+    DashboardComponent,
   ],
   providers: [  ]
 })

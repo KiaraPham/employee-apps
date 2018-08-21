@@ -4,8 +4,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
-import { DashboardCardComponent } from './dashboard-card.component';
-import {DashboardComponent} from '../../dashboard.component';
+import {DashboardComponent} from '../dashboard.component';
+import {FoodMenuComponent} from './food-menu.component';
 
 @NgModule({
   imports: [
@@ -15,8 +15,8 @@ import {DashboardComponent} from '../../dashboard.component';
     DashboardComponent
   ],
   declarations: [
-    DashboardCardComponent
+    FoodMenuComponent
   ],
   providers: [  ]
 })
-export class DashboardCardModule {}
+export class FoodMenuModule {}
