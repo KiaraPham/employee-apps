@@ -1,0 +1,13 @@
+<div class="">
+  <ul >
+    <li class="customer-feed-title sticky-top">Customer Feed</li>
+    <li class="customer-feed-content " *ngFor="let customerList of customerLists">
+      <span class="customer-feed-image"><img [src] = "customerList.image"/></span>
+      <span class="customer-feed-list">
+        <span class="user-name">{{ customerList.name }} </span>
+        <span class="disabled user-ago">{{ customerList.ago}} min ago</span>
+        <div class="user-status">{{ customerList.status }}</div>
+      </span>
+    </li>
+  </ul>
+</div>

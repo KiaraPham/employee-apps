@@ -13,6 +13,8 @@ import { DashboardCardComponent } from './components/dashboard/dashboard-card/da
 import {SidebarComponent} from './components/sidebar/sidebar.component';
 import {NavbarComponent} from './components/navbar/navbar.component';
 import {FoodMenuComponent} from './components/dashboard/food-menu/food-menu.component';
+import {CustomerFeedComponent} from './components/dashboard/customer-feed/customer-feed.component';
+import {RecentActComponent} from './components/dashboard/recent-act/recent-act.component';
 
 const appRoutes: Routes = [
   {path: 'login', component: LoginComponent},
@@ -41,7 +43,9 @@ const appRoutes: Routes = [
     DashboardCardComponent,
     SidebarComponent,
     NavbarComponent,
-    FoodMenuComponent
+    FoodMenuComponent,
+    CustomerFeedComponent,
+    RecentActComponent
   ],
   bootstrap: [AppComponent]
 })

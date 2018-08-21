@@ -5,7 +5,7 @@
   <div id="page-wrapper">
     <div class="row space-between">
       <!--<div>-->
-        <!--<h1 class="page-header">Dashboard</h1>-->
+      <!--<h1 class="page-header">Dashboard</h1>-->
       <!--</div>-->
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb float-left">
@@ -18,7 +18,20 @@
     <dashboard-card *ngFor="let card of cards" [title]="card.title" [content]="card.content" [icon]="card.icon"
                     [bg]="card.bg">
     </dashboard-card>
-    <food-menu></food-menu>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <food-menu></food-menu>
+        </div>
+        <div class="col-sm">
+          <customer-feed></customer-feed>
+        </div>
+        <div class="col-sm">
+          <recent-act></recent-act>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 

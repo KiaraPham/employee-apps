@@ -9,6 +9,8 @@ import { DashboardComponent } from './dashboard.component';
 import { DashboardCardComponent } from './dashboard-card/dashboard-card.component';
 import {SidebarComponent} from '../sidebar/sidebar.component';
 import {FoodMenuComponent} from './food-menu/food-menu.component';
+import {CustomerFeedComponent} from './customer-feed/customer-feed.component';
+import {RecentActComponent} from './recent-act/recent-act.component';
 
 @NgModule({
   imports: [
@@ -17,8 +19,9 @@ import {FoodMenuComponent} from './food-menu/food-menu.component';
     FontAwesomeModule,
     DashboardCardComponent,
     SidebarComponent,
-    FoodMenuComponent
-
+    FoodMenuComponent,
+    CustomerFeedComponent,
+    RecentActComponent
   ],
   declarations: [
     DashboardComponent,
