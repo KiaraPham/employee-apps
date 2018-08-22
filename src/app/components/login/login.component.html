@@ -1,53 +1,54 @@
 <div class="container py-5">
   <div class="row">
-    <div class="col-md-12">
-      <h4 class="text-center">
-        <span>Apps Cyclone</span>
-        <span class="text-black-50">Employee</span>
-      </h4>
+    <div class="col-md-12 ">
+      <div class="text-center mb-lg-5">
+        <img class=" img-fluid" src="../../../assets/images/apps-cyclone-logo.png" alt="Responsive image"/>
+      </div>
       <div class="row">
         <div class="col-md-6 mx-auto">
 
           <!-- form card login -->
           <div class="card rounded-0">
-            <div class="card-header">
-              <p class="mb-0 text-center">Sign in to start your session</p>
+            <div class="card-header bg-white">
+              <p class="mb-0 font-weight-bold">Login Form</p>
             </div>
             <div class="card-body">
-              <form class="form" role="form" autocomplete="off" id="formLogin" novalidate="" method="POST">
+              <form class="form mt-2" role="form" autocomplete="off" id="formLogin" novalidate="" method="POST">
                 <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="Email">
-                  <div class="input-group-append">
-                    <span class="input-group-text"><fa-icon [icon]="faEnvelope"></fa-icon></span>
-                  </div>
+                  <input type="text" class="form-control" placeholder="User Id">
+                  <!--<div class="input-group-append">-->
+                  <!--<span class="input-group-text"><fa-icon [icon]="faEnvelope"></fa-icon></span>-->
+                  <!--</div>-->
                 </div>
 
                 <div class="input-group mb-3">
                   <input type="text" class="form-control" placeholder="Password">
-                  <div class="input-group-append">
-                    <span class="input-group-text"><fa-icon [icon]="faLock"></fa-icon></span>
-                  </div>
+                  <!--<div class="input-group-append">-->
+                  <!--<span class="input-group-text"><fa-icon [icon]="faLock"></fa-icon></span>-->
+                  <!--</div>-->
                 </div>
 
                 <div class="form-group form-check">
                   <label class="form-check-label">
                     <input class="form-check-input" type="checkbox"> Remember me
                   </label>
-                  <button type="submit" class="btn-blue-bg float-right" id="btnLogin">Sign in</button>
+                  <a class="forgot-pw float-right" href="#">Forgot Password?</a>
+
                 </div>
-                <p class="text-center">- OR -</p>
-                <div class="btn-group btn-group-toggle " data-toggle="buttons">
-                  <label class="btn btn-danger active">
-                    <input type="radio" name="options" checked>
-                    <fa-icon [icon]="faGooglePlusG"></fa-icon>
-                  </label>
-                  <label class="btn btn-danger google-sign-in">
-                    <input type="radio" name="options"> Sign in using Google+
-                  </label>
-                </div>
-                <div class="form-group ">
-                  <a href="#">I forgot my password</a>
-                </div>
+                <button type="submit" class="btn-blue-bg text-uppercase" id="btnLogin">Login</button>
+                <!--<p class="text-center">- OR -</p>-->
+                <!--<div class="btn-group btn-group-toggle " data-toggle="buttons">-->
+                <!--<label class="btn btn-danger active">-->
+                <!--<input type="radio" name="options" checked>-->
+                <!--<fa-icon [icon]="faGooglePlusG"></fa-icon>-->
+                <!--</label>-->
+                <!--<label class="btn btn-danger google-sign-in">-->
+                <!--<input type="radio" name="options"> Sign in using Google+-->
+                <!--</label>-->
+                <!--</div>-->
+                <!--<div class="form-group ">-->
+                <!---->
+                <!--</div>-->
               </form>
             </div>
             <!--/card-block-->

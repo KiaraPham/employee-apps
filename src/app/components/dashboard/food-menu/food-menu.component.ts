@@ -25,6 +25,11 @@ export class FoodMenuComponent {
       price: 12,
       image: '../../../../assets/images/drink.jpg'
     },
+    {
+      name: 'Drinks',
+      price: 12,
+      image: '../../../../assets/images/drink.jpg'
+    }
   ];
 
   constructor() {

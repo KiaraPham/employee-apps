@@ -8,6 +8,25 @@ import {Component} from '@angular/core';
 
 
 export class RecentActComponent {
+  recentActs = [
+    {
+      ago: 4,
+      action: 'You created lists',
+    },
+    {
+      ago: 5,
+      action: 'You changed status',
+    },
+    {
+      ago: 55,
+      action: 'You updated profile',
+    },
+    {
+      ago: 20,
+      action: 'You followed Anna',
+    },
+
+  ]
   constructor() {
 
   }

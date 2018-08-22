@@ -36,7 +36,11 @@
   background: none;
   border: none;
 }
-
+.user-wrapper {
+  padding-left: 30px;
+  margin-left: 30px;
+  border-left: solid 1px darkgrey;
+}
 .user-profile img {
   width: 29px;
   height: 29px;
